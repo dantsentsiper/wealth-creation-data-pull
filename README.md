@@ -9,11 +9,13 @@ Before running these tools, ensure you have the following installed:
 - Python 3.8 or higher
 - pandas library
 - tkinter library for GUI operations
+- openpyxl library for Excel operations
 
 You can install the required Python packages using pip:
 
 ```bash
-pip install pandas
+pip install pandas 
+pip install openpyxl
 ```
 
 Tkinter typically comes pre-installed with Python. If not, you can install it using your package manager. For example, on Ubuntu:
@@ -57,14 +59,5 @@ sudo apt-get install python3-tk
 - Ensure that all Excel and CSV files are closed before running these tools to prevent read/write errors.
 - Adjust file paths and settings in the code if necessary to match your local environment.
 
-## .gitignore Configuration
 
-To avoid tracking temporary or personal data files like CSV or Excel files, you can create a `.gitignore` file in your repository root with the following entries:
-
-```
-*.csv
-*.xlsx
-```
-
-It is common practice to include the `.gitignore` file in your repository to ensure all collaborators ignore the same unnecessary files. If you do not wish to track the `.gitignore` file itself, this would be unconventional as it defeats its purpose, but you can choose to leave it untracked.
 
